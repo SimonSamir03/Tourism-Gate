@@ -1,0 +1,37 @@
+/***** Start Default Theme *****/
+/* Active Link*/
+a:hover {color: #E426D5; text-decoration: none;}
+.navbar-dark .navbar-nav .show > .nav-link, 
+.navbar-dark .navbar-nav .active > .nav-link, 
+.navbar-dark .navbar-nav .nav-link.show, 
+.navbar-dark .navbar-nav .nav-link.active,
+.dropdown-item:hover,
+.dropdown-item:focus,
+.carousel-indicators li,
+.option-box .gear-check
+{
+    background-color: #E426D5;
+}
+.navbar-dark .navbar-brand span,
+.about h1 span,
+.features .feat i,
+.footer h3,
+.footer .copyright span
+{
+    color: #E426D5;
+}
+.dropdown-menu,
+{
+    border-top: 1px solid #E426D5;
+}
+.option-box .color-option,
+.our-team .person img:hover
+{
+    border: 3px solid #E426D5;
+}
+.bodytrips .ttrr img:hover
+{
+    border: 3px solid #E426D5;
+}
+
+/***** End Default Theme *****/

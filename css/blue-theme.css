@@ -1,0 +1,40 @@
+/***** Start Default Theme *****/
+/* Active Link*/
+a:hover {color: #009AFF; text-decoration: none;}
+.navbar-dark .navbar-nav .show > .nav-link, 
+.navbar-dark .navbar-nav .active > .nav-link, 
+.navbar-dark .navbar-nav .nav-link.show, 
+.navbar-dark .navbar-nav .nav-link.active,
+.dropdown-item:hover,
+.dropdown-item:focus,
+.carousel-indicators li,
+.option-box .gear-check
+{
+    background-color: #009AFF;
+}
+.navbar-dark .navbar-brand span,
+.about h1 span,
+.features .feat i,
+.footer h3,
+.footer .copyright span
+{
+    color: #009AFF;
+}
+.dropdown-menu,
+{
+    border-top: 1px solid #009AFF;
+}
+.option-box .color-option,
+.our-team .person img:hover
+{
+    border: 3px solid #009AFF;
+}
+.bodytrips .ttrr img:hover
+{
+    border: 3px solid #009AFF;
+}
+/***** End Default Theme *****/
+/*41 ش نزيل خليفة
+الحجاز 
+مقابل بنك القاهرة
+*/

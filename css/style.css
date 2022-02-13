@@ -1,0 +1,383 @@
+body {padding-top: 55px;overflow: hidden;}
+h1,h2,h3,h4,h5,.lead {font-family: "Droid Sans", sans-serif;}
+a {color: #FFF}
+/********* Start Overriding Bootstrap ***********/
+/* Active Link*/
+.navbar-dark .navbar-nav .show > .nav-link, 
+.navbar-dark .navbar-nav .active > .nav-link, 
+.navbar-dark .navbar-nav .nav-link.show, 
+.navbar-dark .navbar-nav .nav-link.active {color: #BBB;}
+/* Main Navbar*/
+.navbar
+{
+    min-height: 50px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.navbar-expand-lg .navbar-collapse
+{
+    height: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+/* Navbar Link*/
+.navbar-dark .navbar-nav .nav-link
+{
+    color: #BBB;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+/* Brand Name*/
+.navbar-dark .navbar-brand{color: #BBB;font-size: 30px;margin-left: 30px;}
+.navbar-nav
+{
+    margin-left: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+/* Dropdown menu*/
+.dropdown-menu{background-color: #333;min-width: 200px;top: 40px;}
+.dropdown-menu {left: 0px;right: auto;}
+.dropdown-item {color: #FFF;padding: 6px 20px;}
+.dropdown-item:hover,.dropdown-item:focus {color: #FFF;padding-left: 25px;}
+/* Divider*/
+.dropdown-menu .divider {background-color: #871818;}
+/* Carousel */
+.carousel-caption
+{
+    bottom: 50px;
+    background-color: rgba(3,3,3,0.3);
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.slidemoi > .carousel-item > img {width: 100%;}
+.carousel-indicators {height: 20px;}
+.carousel-indicators li {height: 10px;}
+/* Start Section About */
+/* Start Section ToolBox */
+.option-box {position: fixed;top: 100px;left: 0px;z-index: 9999;}
+.option-box .color-option
+{
+    float: left;
+    background: #333;
+    color: #FFF;
+    padding: 10px;
+    width: 180px;
+    display: none;
+}
+.option-box .color-option ul li
+{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 3px;
+    cursor: pointer;
+}
+.option-box .gear-check {padding: 5px;color: #FFF;cursor: pointer;}
+/* End Section ToolBox */
+.about .lead {color: #888;font-size: 25px;margin-top: 15px;}
+.about h1 {font-weight: bold;}
+/* End Section About */
+/* Start Section BodyTrips */
+.bodytrips 
+{
+    background: url("../images/trips/egypt.jpg")no-repeat center center fixed;
+    margin-top: 40px;
+}
+.bodytrips .trip
+{
+    background-color: rgba(2,2,2,0.7);
+    color: #FFF;
+}
+.bodytrips .ttrr {margin-bottom: 30px;}
+/* End Section BodyTrips */
+/* Start Section Features */
+.features {background-color: #EEE;min-height: 500px;}
+.features .feat p {line-height: 2em;}
+.features .feat {margin-bottom: 30px;}
+.features .feat i {font-size: 30px;margin-bottom: 10px;}
+.h6 {margin-bottom: 30px;}
+.features .feat h4 {margin-top: 10px;}
+.features .feat h4 a{color: black;}
+/* End Section Features */
+/* Start Section Testimonials */
+.testimonials .grey-text {color: #c19b1c;}
+.testimonials .h1 {margin-top: 30px;}
+.testimonials h4 {color: #3b479f;}
+.testimonials h6 {color: #3b6d9f;}
+.testimonials .carousel-indicators {position: static;padding-top: 20px;}
+/* End Section Testimonials */
+/* Start Section Our Team */
+.our-team
+{
+    background: url("../images/bg2.jpg") no-repeat center center fixed;
+    min-height: 500px;
+    margin-top: 40px;
+}
+.our-team .team
+{
+    background-color: rgba(2,2,2,0.7);
+    color: #FFF;
+    min-height: 500px;
+}
+.our-team .person {margin-bottom: 30px;}
+.our-team .person .soc {cursor: pointer;}
+.our-team .person i {letter-spacing: 10px;}
+.our-team .person  > #facebook:hover {color: #0303fa;}
+.our-team .person  > #twitter:hover {color: #0080ff;}
+.our-team .person  > #youtube:hover {color: #ff000a;}
+.our-team .person  > #google:hover {color: #ff4500;}
+/* End Section Our Team */
+/* Start Section Subscribe */
+.subscribe {background-color: #EEE;}
+.subscribe .h1 {color: #888;letter-spacing: 2px;}
+.subscribe p {margin-bottom: 30px;}
+.subscribe .form-control
+{
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    color: #1763bc;
+}
+.subscribe button {height: 50px;}
+/* End Section Subscribe */
+/* Start Section Stats */
+.stats
+{
+    background: url("../images/statistics.jpg")no-repeat center center fixed;
+    min-height: 300px;
+}
+.stats .data
+{
+    background-color: rgba(2,2,2,0.7);
+    color: #B6B5B5;
+    min-height: 300px;
+}
+.stats .statsdata {margin-bottom: 30px;}
+.stats .statsdata:hover {color: #FFF;}
+.stats p
+{
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.stats span {font-size: 18px;}
+/* End Section Stats */
+/* Start Section Skills */
+.our-skills h3 {font-weight: bold;margin-top: 0px;}
+.our-skills .progress {height: 30px;margin-bottom: 10px;margin-top: 5px;}
+.our-skills .progress-bar
+{line-height: 30px;font-size: 16px;font-weight: bold;}
+/* End Section Skills */
+/* Start Section ContactUs */
+.contact-us
+{
+    background: url("../images/contact%20us.jpg")no-repeat center center fixed;
+    min-height: 300px;
+}
+.contact-us .fields
+{
+    background-color: rgba(9,9,9,.7);
+    min-height: 300px;
+    color: #DDD;
+}
+.contact-us p {margin-bottom: 30px;}
+.contact-us textarea {height: 150px;}
+.contact-us input[type="text"],
+.contact-us textarea
+{
+    background-color: rgba(82,78,78,0.7);
+    color: #FFF;
+    border: none;
+}
+/* End Section ContactUs */
+/* Start Section Footer */
+.footer {background: #111;color: #AAA;padding-top: 10px;}
+.footer a {color: #FFF;}
+.footer h3 {letter-spacing: 1px;margin: 30px 0px 20px;}
+.footer h4 {color: #16657c;}
+.footer .three-columns {overflow: hidden;}
+.footer .three-columns li{width: 33.3333%;float: left;padding: 5px 0px;}
+.footer .social-list {overflow: hidden;margin: 20px 0px 10px;}
+.footer .social-list li
+{
+    float: left;
+    margin-right: 3px;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    cursor: pointer;
+}
+.footer .social-list li:hover {opacity: 1;}
+.footer .img-thumbnail
+{
+    background: rgba(0,0,0,0.2);
+    border: 1px solid #444;
+    margin-bottom: 5px;
+}
+.footer .copyright
+{
+    background: #333;
+    color: #AAA;
+    padding: 15px 0px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* End Section Footer */
+/* Start Section Loading */
+.loading-overlay
+{
+    background: #222;
+    color: #FFF;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;   
+}
+.sk-folding-cube {
+    margin: 20px auto;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    -webkit-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+}
+.sk-folding-cube .sk-cube {
+    float: left;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1); 
+}
+.sk-folding-cube .sk-cube:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #E41B17;
+    -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+    animation: sk-foldCubeAngle 2.4s infinite linear both;
+    -webkit-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+}
+.sk-folding-cube .sk-cube2 {
+    -webkit-transform: scale(1.1) rotateZ(90deg);
+    transform: scale(1.1) rotateZ(90deg);
+}
+.sk-folding-cube .sk-cube3 {
+    -webkit-transform: scale(1.1) rotateZ(180deg);
+    transform: scale(1.1) rotateZ(180deg);
+}
+.sk-folding-cube .sk-cube4 {
+    -webkit-transform: scale(1.1) rotateZ(270deg);
+    transform: scale(1.1) rotateZ(270deg);
+}
+.sk-folding-cube .sk-cube2:before {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+.sk-folding-cube .sk-cube3:before {
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s; 
+}
+.sk-folding-cube .sk-cube4:before {
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+}
+@-webkit-keyframes sk-foldCubeAngle {
+  0%, 10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+    transform: perspective(140px) rotateX(-180deg);
+    opacity: 0; 
+  } 25%, 75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+    transform: perspective(140px) rotateX(0deg);
+    opacity: 1; 
+  } 90%, 100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+    transform: perspective(140px) rotateY(180deg);
+    opacity: 0; 
+  } 
+}
+@keyframes sk-foldCubeAngle {
+  0%, 10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+    transform: perspective(140px) rotateX(-180deg);
+    opacity: 0; 
+  } 25%, 75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+    transform: perspective(140px) rotateX(0deg);
+    opacity: 1; 
+  } 90%, 100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+    transform: perspective(140px) rotateY(180deg);
+    opacity: 0; 
+  }
+}
+/* End Section Loading */
+
+/* Start Our Grouping System */
+.contact-us,.footer .social-list li,.stats .statsdata,.stats,
+.our-team, .bodytrips
+{
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;  
+}
+.features .h1,.testimonials .h1,.our-team .h1,.subscribe .h1,
+.stats .h1,.our-skills .h1, .bodytrips .h1 {margin-bottom: 30px;}
+.dropdown-item:hover,
+.bodytrips .ttrr img:hover,
+.our-team .person img:hover,
+.stats .statsdata:hover,
+.footer .social-list li:hover
+.features .feat img:hover
+{
+    -webkit-transition:all 0.5s ease-in-out;
+    -moz-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+    transition:all 0.5s ease-in-out;
+}
+.about, .features, .our-team .team, .subscribe, .stats .data, .our-skills,
+.contact-us .fields, .bodytrips .trip
+{padding-top: 40px;padding-bottom: 40px;}
+.bodytrips .ttrr img:hover,.our-team .person img:hover,.features .feat img:hover {cursor: pointer;}
+/* End Our Grouping System */
+
+/* Start Page Sharm */
+
+.sharm-head 
+{
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.sharm {background-color: #EEE;min-height: 500px;}
+.sharm h2
+{
+    font-weight: bold;
+}
+.sharm h3
+{
+    line-height: 50px;
+}
+/* End Page Sharm */
+
+/* Start Counter */
+
+/* End Counter */
